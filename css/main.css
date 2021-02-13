@@ -1,0 +1,9 @@
+.body_container{
+    background-color: white;
+}
+.header_container{
+    background-color: aquamarine;
+}
+.header_container img{
+    width: 30em;
+}
