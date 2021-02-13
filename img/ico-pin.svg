@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="50"
+   viewBox="0 0 13.229167 13.229167"
+   version="1.1"
+   id="svg2733"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="ico-buscar-casa.svg">
+  <defs
+     id="defs2727" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.0104076"
+     inkscape:cx="13.568017"
+     inkscape:cy="-0.80971876"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2730">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-283.77083)">
+    <g
+       id="g3323"
+       style="fill:#aad400">
+      <path
+         transform="matrix(0.26458334,0,0,0.26458334,0,283.77083)"
+         id="path3291"
+         d="M 24.931641 0.3203125 C 15.512867 0.3203125 8.015625 7.0953687 8.015625 17.791016 C 8.015625 27.51608 22.468268 47.597092 25.207031 49.679688 C 28.054782 47.636702 41.984375 27.377446 41.984375 17.652344 C 41.984375 6.9566968 34.350415 0.3203125 24.931641 0.3203125 z M 25 5.5761719 A 11.993399 12.34003 0 0 1 36.994141 17.916016 A 11.993399 12.34003 0 0 1 25 30.255859 A 11.993399 12.34003 0 0 1 13.005859 17.916016 A 11.993399 12.34003 0 0 1 25 5.5761719 z "
+         clip-path="none"
+         style="fill:#aad400;fill-opacity:1;stroke:none;stroke-width:3.77952743;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3294"
+         d="m 6.1087504,290.24927 -1.3618628,-0.013 0.012971,-1.738 -0.5577166,-0.0259 0.8823065,-0.63507 -0.023875,-0.9778 0.5762588,-0.004 -0.011453,0.59217 0.9373246,-0.67466 2.4643209,1.71205 H 8.3785193 V 290.249 H 7.0425978 c -0.018509,-0.67145 0.077564,-1.44018 -0.4669236,-1.41374 -0.5610575,0.0108 -0.4422554,0.65223 -0.4669238,1.41374 z"
+         style="fill:#aad400;fill-opacity:1;stroke:none;stroke-width:0.26458338px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
