@@ -6,7 +6,7 @@
 }
 a{
 	text-decoration: none;
-	color: #57b322;
+	color: white;
 }
 .body_container{
 	background-color: white;
@@ -23,21 +23,18 @@ a{
 .nav-container{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 }
 .list_1{
-	color: #445500;
+	color: #637175;
 	width: 40%;
-	display: flex;
-	flex-wrap: wrap;
 	list-style: none;
-	align-items: center;
-	justify-content: space-between;
+
 }
 .list_1 li, .list_3 li{
-	padding: .5em 0;
-	border-radius: .5em;
+	border-radius: 4px;
 	cursor: pointer;
-
+	margin: 0;
 }
 .list_1 li:hover, .list_3 li:hover{
 	background-color: #AAD400;
@@ -47,14 +44,32 @@ a{
 	width: 20%;
 }
 .list_3{
-	color: #445500;
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
+	color: #637175;
 	width: 40%;
-	align-items: center;
-	justify-content: space-around;
+	list-style: none;
 }
+.list_4{
+	order: 4;
+	display: flex;
+	list-style: none;
+	width: 6em;
+	background-color: #AAD400;
+	position: fixed;
+	top: .2em;
+	right: .2em;
+	justify-content: flex-end;
+	color: #707E83;
+	border-radius: 4px;
+}
+.list_4 li{
+	padding: .5em;
+	color: white;
+	border-radius: 4px;
+}
+.list_4 li:hover{
+	background-color: #707E83;
+}
+
 /* Contenido dinamico */
 .section_dinamico img{
 	/* background-image: url(/img/demo.png); */
@@ -108,15 +123,14 @@ a{
 	.list_1{
 		order: 2;
 		width: 50%;
-		display: flex;
+		display: block;
 		flex-wrap: wrap;
 		list-style: none;
 		align-items: center;
-		justify-content: space-evenly;
 	}
 	.list_1 li{
 		display: block;
-		width: 100%;
+		padding: .5em;
 
 	}
 	.list_2{
@@ -126,15 +140,14 @@ a{
 	.list_3{
 		order: 3;
 		list-style: none;
-		display: flex;
+		display: block;
 		flex-wrap: wrap;
 		width: 50%;
 		align-items: center;
-		justify-content: space-evenly;
 	}
 	.list_3 li{
 		display: block;
-		width: 100%;
+		padding: .5em;
 	}
 	.nav-container{
 		font-size: 1.2em;
@@ -164,11 +177,7 @@ a{
 		flex-wrap: wrap;
 		list-style: none;
 		align-items: center;
-		justify-content: space-evenly;
-	}
-	.list_1 li{
-		display: inline-block;
-		width: 33%;
+		justify-content: flex-end;
 	}
 	.list_2{
 		order: 2;
@@ -181,12 +190,26 @@ a{
 		flex-wrap: wrap;
 		width: 35%;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: flex-start;
 	}
-	.list_3 li{
+	.list_4{
+		order: 4;
 		display: inline-block;
-		width: 30%;
-	}	
+		list-style: none;
+		width: 2em;
+		background-color: #AAD400;
+		position: fixed;
+		top: 32%;
+		right: .2em;
+		justify-content: flex-end;
+		color: #707E83;
+		border-radius: 4px;
+	}
+	.list_4 li{
+		padding: .5em;
+		color: white;
+	}
+
 
 	.nav-container{
 		font-size: 1.2em;
