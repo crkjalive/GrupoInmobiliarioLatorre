@@ -56,7 +56,7 @@ a{
 	justify-content: space-around;
 }
 /* Contenido dinamico */
-.aside_dinamico img{
+.section_dinamico img{
 	/* background-image: url(/img/demo.png); */
 
 	/* height: 20em; */
