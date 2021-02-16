@@ -69,7 +69,7 @@ const send = () => {
 					<h2 class="item_title">${robin.title}</h2>
 					<p class="item_description">${robin.description}</p>
 					<p class="item_add">${robin.add}</p>
-					<p class="item_price"><b>${robin.price}<b></p>
+					<p class="item_price">${robin.price}</p>
 				</div>
 			</article>
 		`;
