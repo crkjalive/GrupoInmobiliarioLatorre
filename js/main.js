@@ -1,7 +1,7 @@
 const items = [
 	{	
 		id:0,
-		image:"/venta/casa1.jpg",
+		image:"./venta/casa1.jpg",
 		title:"<b>Venta Casa</b> <br> Barrio: San Jorge 162mts²",
 		description:"Casa de 6mts x 27mts <br> <b>Primer Piso:</b> 3 alcobas Sala Comedor Cocina, Baño, Patio y Garaje",
 		add: "<b>Segundo piso:</b> 4 alcobas, sala comedor, cocina, baño y terraza cubierta <br> <b>Negociables</b>",
