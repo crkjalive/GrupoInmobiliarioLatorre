@@ -115,17 +115,20 @@ aside{
 	width: 50%;
 	list-style: none;
 }
-.list_1 li, .list_3 li{
+.list_1 li, 
+.list_3 li{
 	border-radius: 4px;
 	cursor: pointer;
 	margin: 0;
 	display: block;
 	padding: .5em;
+	color:#1E1F1C;
+
 }
 .list_1 li:hover, 
 .list_3 li:hover{
 	background-color: #AAD400;
-	color:white;
+	color:#F0F0F0;
 }
 .list_2{
 	order: 1;
