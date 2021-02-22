@@ -11,6 +11,7 @@ for (let i = 0; i < data.length; i++){
         let items3 = document.createElement('spam');
         let items4 = document.createElement('spam');
         let items5 = document.createElement('spam');
+        let items6 = document.createElement('spam');
         let cont = document.createElement('div');
         cont.className = 'cont';
         items0.className = 'items0';
@@ -19,14 +20,16 @@ for (let i = 0; i < data.length; i++){
         items3.className = 'items3';
         items4.className = 'items4';
         items5.className = 'items5';
+        items6.className = 'items6';
         items0.textContent += `# ${i+1} `;
         items1.textContent += `${data[i].item} `;
         items2.textContent += `${data[i].matricula} `;
         items3.textContent += `${data[i].zona} `;
-        items4.textContent += `${data[i].descripcion} `;
-        items5.textContent += `${data[i].ciudad} `;
+        items4.textContent += `${data[i].clase} `;
+        items5.textContent += `${data[i].descripcion} `;
+        items6.textContent += `${data[i].ciudad} `;
         
-        contenedor.appendChild(cont).append(items0,items1,items2,items3,items4,items5);
+        contenedor.appendChild(cont).append(items0,items1,items2,items3,items4,items5,items6);
 
     }
 }
