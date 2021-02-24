@@ -4,7 +4,7 @@ const a = document.createElement('a')
 a.href = 'index.html'
 a.style.color = "red"
 const li = document.createElement('li')
-const texto = document.createTextNode("ClubHouse")
+const texto = document.createTextNode("")
 li.append(texto)
 a.append(li)
 list_1.append(a)

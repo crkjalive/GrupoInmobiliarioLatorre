@@ -6,7 +6,7 @@
 }
 a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .red{
 	background-color: red;;
@@ -63,7 +63,7 @@ aside{
 	display: flex;
 
 }
-.items0, .items1, .items2, .items3, .items4, .items5, .items6{
+.items0, .items1, .items2, .items3, .items4, .items5, .items6, .items7{
 	display: flex;
 	align-items: center;
 	background-color: #F0F0F0;
@@ -85,7 +85,10 @@ aside{
 	width: 10%;
  }
 .items5{
-	width: 35%;
+	width: 30%;
+}
+.items7{
+	width: 5%;;
 }
 
 .body_container{
