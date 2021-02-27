@@ -30,8 +30,8 @@ body{
 	left: calc(50% - 168px);
 	width: 350px;
 	box-shadow: 0px 0px 8px #A6E22E;
-	transition: all 2000ms ease;
 	transform: translateY(-31em);
+	transition: all 500ms ease;
 }
 .logo_container .a_img{
 	width: 350px;
