@@ -48,11 +48,14 @@
 }
 .icon-facebook:before {
   content: "\ea91";
+  color: #2B7DE9;
 }
 .icon-instagram:before {
+  color: #FE6F2D;
   content: "\ea92";
 }
 .icon-whatsapp:before {
+  color: #1BD741;
   content: "\ea93";
 }
 .icon-youtube:before {
