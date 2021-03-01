@@ -7,6 +7,7 @@ let ul_container2 = document.getElementById('ul_container2');
 
 const numero = "3192205259";
 
+
 const menu_create = (contenedor, array) => {
     let data_item;
     for (let i = 0; i < array.length; i++) {
@@ -23,6 +24,7 @@ const menu_create = (contenedor, array) => {
 menu_create(ul_container1, data_menu1);
 menu_create(ul_container2, data_menu2);
 
+
 const logo_create = () => {
     let a = document.createElement('a');
     a.className = 'a_img';
@@ -34,6 +36,7 @@ const logo_create = () => {
     document.getElementById('logo_container').appendChild(a).appendChild(img)
 }
 logo_create();
+
 
 const sociales_create = () => {
     const redes_sociales = document.getElementById('redes_sociales');
@@ -68,6 +71,7 @@ const sociales_create = () => {
         );
 }
 sociales_create();
+
 
 const footer_create = () => {
     const footer_container = document.getElementById('footer_container');

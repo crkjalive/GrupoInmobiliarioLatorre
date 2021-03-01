@@ -9,7 +9,7 @@ const items = [
 	},
 	{	
 		id:1,
-		image: "./img/imagenDemo_2.jpg",
+		image: "./img/imagenDemo.jpg",
 		title:"Apartamento Modelo",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
@@ -17,7 +17,7 @@ const items = [
 	},
 	{	
 		id:2,
-		image: "./img/imagenDemo_2.jpg",
+		image: "./img/imagenDemo.jpg",
 		title:"Apartamento Modelo",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
@@ -25,7 +25,7 @@ const items = [
 	},
 	{	
 		id:3,
-		image: "./img/imagenDemo_2.jpg",
+		image: "./img/imagenDemo.jpg",
 		title:"Apartamento Modelo",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
@@ -33,7 +33,7 @@ const items = [
 	},
 	{	
 		id:2,
-		image: "./img/imagenDemo_2.jpg",
+		image: "./img/imagenDemo.jpg",
 		title:"Apartamento Modelo",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
@@ -41,7 +41,7 @@ const items = [
 	},
 	{	
 		id:3,
-		image: "./img/imagenDemo_2.jpg",
+		image: "./img/imagenDemo.jpg",
 		title:"Apartamento Modelo",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
@@ -52,6 +52,8 @@ const items = [
 let dataBase = items;
 
 let section = document.getElementById("section_articulos")
+
+const indexardo = () => {
 
 class Batman {
 	constructor(title, image, description,add,price) {
@@ -96,3 +98,5 @@ const send = () => {
 		}
 }
 send();
+}
+indexardo();
