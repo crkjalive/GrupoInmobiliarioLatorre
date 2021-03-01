@@ -41,6 +41,7 @@
   content: "\e942";
 }
 .icon-mobile:before {
+  color:#FD971F;
   content: "\e958";
 }
 .icon-bubbles:before {
@@ -59,6 +60,7 @@
   content: "\ea93";
 }
 .icon-youtube:before {
+  color: #ff0000;
   content: "\ea9d";
 }
 .icon-github:before {
