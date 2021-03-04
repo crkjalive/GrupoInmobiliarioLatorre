@@ -318,7 +318,7 @@ body{
 }
 .search_total{
 	position: fixed;
-	top: 28%;
+	top: 0px;
 	left: 0em;
 	background-color: #A6E22E;
 	padding: .5em;
@@ -454,7 +454,7 @@ body{
 }
 @media screen and (min-width: 1024px) {
 	.search_total{
-		top: 60%;
+		top: 0;
 		border-radius: 0 .5em .5em 0;
 	}
 	.redes_container{
