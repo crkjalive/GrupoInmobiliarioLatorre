@@ -16,10 +16,13 @@ window.load = () => {
         // console.log(id_page_text)
 
         let conteo = 0;
+
+        const total = document.createElement('div');
+        
         for (let i = 0; i < data.length; i++) {
-
+            
             if (data[i].clase == id_page_text) {
-
+                
                 let item_item = document.createElement('div');
                 item_item.className = 'item_item';
 
@@ -60,22 +63,26 @@ window.load = () => {
                 item_dataCity.className = "item_dataCity";
                 item_dataCity.textContent += `Ciudad: ${data[i].ciudad.toLowerCase()}`
 
-                search.appendChild(
-                    item_item)
-                    .append(
-                        item_dataLink,
-                        item_conteo,
-                        item_dataItem,
-                        item_dataZona,
-                        item_dataClase,
-                        item_dataDesc,
-                        item_dataCity,
-                    );
+                total.className="search_total";
+                total.textContent = `Post-It: `
 
+                search.appendChild(item_item)
+                .append(
+                    item_dataLink,
+                    item_conteo,
+                    item_dataItem,
+                    item_dataZona,
+                    item_dataClase,
+                    item_dataDesc,
+                    item_dataCity,
+                    );
+                search.appendChild(total);
+                    
                 // console.log(conteo+1, data[i].item, data[i].zona, data[i].clase, id_page.textContent);
                 conteo++;
             }
         }
+        total.textContent += conteo;
     }
     busqueda();
 }

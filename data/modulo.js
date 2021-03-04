@@ -1,5 +1,6 @@
 import { data } from "./data.js";
 const whatsapp = "https://api.whatsapp.com/send?phone=573192205259/"
+
 let contador = 0;
 
     const data_table = document.querySelector('#data_table');
