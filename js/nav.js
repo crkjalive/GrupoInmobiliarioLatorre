@@ -1,5 +1,5 @@
 const data_menu1 = ["apartamentos", 'casas', 'bodegas'];
-const data_menu2 = ['garajes', 'depositos', 'locales'];
+const data_menu2 = ['garajes', 'depositos', 'locales', 'oficinas'];
 const data_redes = ['whatsapp', 'facebook', 'instagram', 'Google'];
 
 let ul_container1 = document.getElementById('ul_container1');
