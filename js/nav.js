@@ -31,7 +31,7 @@ const logo_create = () => {
     a.href = `index.html`;
     let img = document.createElement('img');
     img.className = 'logo';
-    img.src = './img/gil.png';
+    img.src = url('https://drive.google.com/file/d/11-1GGjTjIJJKNfFF8-_PBiB7CavOeBHC/view?usp=sharing');
     img.alt = 'Grupo Inmobiliario Latorre';
     document.getElementById('logo_container').appendChild(a).appendChild(img)
 }
@@ -76,9 +76,11 @@ sociales_create();
 const footer_create = () => {
     const footer_container = document.getElementById('footer_container');
     const gil = document.createElement('div');
+    const gil2 = document.createElement('div');
     gil.className = 'gil';
-    gil.textContent = 'Grupo Inmobiliario Latorre © Todos los derechos reservados 2020 ';
-    footer_container.append(gil);
+    gil.textContent = 'Grupo Inmobiliario Latorre';
+    gil2.className = 'gil2';
+    gil2.textContent = '© Todos los derechos reservados 2020 ';
+    footer_container.append(gil, gil2);
 }
 footer_create();
-
