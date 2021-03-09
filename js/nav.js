@@ -31,7 +31,7 @@ const logo_create = () => {
     a.href = `index.html`;
     let img = document.createElement('img');
     img.className = 'logo';
-    img.src = url('https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/151832715_111581447636636_155298492189556312_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=e3f864&_nc_ohc=6vua07UEzKkAX8uR1mo&_nc_ht=scontent-bog1-1.xx&oh=54d15ea2a209b4305368c69a43e32dff&oe=606D5307');
+    img.src = './img/gil.png';
     img.alt = 'Grupo Inmobiliario Latorre';
     document.getElementById('logo_container').appendChild(a).appendChild(img)
 }
