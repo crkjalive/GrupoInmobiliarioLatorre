@@ -81,3 +81,4 @@ const footer_create = () => {
     footer_container.append(gil);
 }
 footer_create();
+

@@ -27,6 +27,7 @@ body{
 
 /* logo */
 .logo_container {
+	position: relative;
 	order: 1;
 	top: 0;
 	right: 0;
@@ -34,7 +35,6 @@ body{
 	width: 70%;
 	padding: 0 .5em;
 	border-radius: 0 0 0 .5em;
-	background-color: white;
 	box-shadow: 0px 4px 8px #A6E22E;
 }
 .logo_container .a_img{
@@ -48,24 +48,30 @@ body{
 
 
 /* nav_container */
+.menu_btn{
+	position: absolute;
+	bottom: -3.6em;
+	right: 0;
+	color: #272822;
+	z-index: 1;
+	background-color: #A6E22E;
+	box-shadow: 1px 1px 3px #272822;
+	border-radius: 5px;
+	padding: 1em;
+}
 .nav_container{
-	/* z-index: 5000; */
 	width: 100%;
-	/* padding: 4em 0; */
-	/* margin-top: 3em; */
 	display: flex;
 	flex-wrap: wrap;
-	/* align-items: center; */
 }
 .nav_container .ul_container1, 
 .nav_container .ul_container2{
-	/* position: absolute; */
 	list-style: none;
-	display: flex;
+	display: none;
 	justify-content: center;
 }
 .nav_container .ul_container1{
-	display: flex;
+	display: none;
 	order: 2;
 	justify-content: flex-end;
 	font-size: .9em;
@@ -77,6 +83,7 @@ body{
 	order: 3;
 	font-size: .9em;
 	width: 100%;
+	position: relative;
 }
 .nav_container .ul_container1 .a_li, 
 .nav_container .ul_container2 .a_li  {
@@ -113,7 +120,7 @@ body{
 	box-shadow: 1px 1px 3px #272822;
 	background-color: rgb(255, 255, 255);
 	border-radius: 8px;;
-	font-size: 1.8em;
+	/* font-size: 1.8em; */
 	padding: .5em;
 	transform: rotate(-15deg);
 
@@ -318,16 +325,14 @@ body{
 }
 .search_total{
 	position: fixed;
-	top: 0px;
-	left: 0em;
+	top: 0;
+	right:0 ;
 	background-color: #A6E22E;
 	padding: .5em;
-	border-radius: 0 .5em .5em 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: italic;
 	font-weight: 600;
 	font-size: .8em;
-	/* transform: rotate(-90deg); */
 }
 .search_table{
 	display: flex;
@@ -366,14 +371,45 @@ body{
 @media screen and (min-width: 0px) {
 	.search_total{
 		top: 0;
-		border-radius: 0 0 .5em 0;
+		box-shadow: 0px 0px 3px #272822;
+		border-radius: 0 0 0 5px;
 	}
-	.nav_container .ul_container2,
-	.nav_container .ul_container1{
-		margin-top: .5em;
+	.nav_container{
+		width: 100%;
+		justify-content: flex-end;
+	}
+	.logo_container{
+		width: 70%;
+		padding: .5em 1em;
+	}
+	.nav_container .ul_container1,
+	.nav_container .ul_container2{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 0;
+		width: 70%;
+	}
+	.nav_container .ul_container1 .a_li{
+		width: 50%;
+		order: 3;
+		text-align: center;
+	}
+	.nav_container .ul_container1 .a_li:first-child{
+		width: 100%;
+
+	}
+	.nav_container .ul_container2 .a_li{
+		text-align: center;
+		order: 2;
+		width: 50%;
 	}
 	.redes_container{
-		top: calc(50% -4.5em);
+		top: 0;
+	}
+	.redes_container .redes_sociales .link_icon{
+		margin: .2em .3em;
+		padding: .5em;
+		font-size: 1.5em;
 	}
 	.article_container{
 		width: 100%;
@@ -390,20 +426,26 @@ body{
 	.search_table{
 		padding-left: 4em;
 	}
+	.search_total{
+		right: 0;
+	}
 	.item_item{
 		width: 100%;
 	}
 }
 @media screen and (min-width: 640px) {
 	.nav_container{
+		display: flex;
+		flex-wrap: wrap;
 		padding: 1em .5em;
-		justify-content: flex-end;
 	}
 	.nav_container .ul_container1{
-		width: 50%;
+		width: 35%;
+		text-align: center;
 	}
 	.nav_container .ul_container2{
-		width: 40%;
+		width: 35%;
+		text-align: center;
 	}
 	.section_articulos{
 		padding-left: 4em;
@@ -423,24 +465,26 @@ body{
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
+		justify-content: center;
 	}
 	.logo_container{
-		width: 30%;
+		width: 100%;
 		margin: 0 auto;
 		border-radius: .5em;
-		/* display: none; */
 	}
-
 	.nav_container .ul_container1{
-		position: absolute;
-		left: 0;
-		width: 35%;
+		width: auto;
+	}
+	.nav_container .ul_container1 .a_li,
+	.nav_container .ul_container2 .a_li{
+		width: auto;
+	}
+	.nav_container .ul_container1 .a_li:first-child{
+		width: auto;
+
 	}
 	.nav_container .ul_container2{
-		justify-content: right;
-		position: absolute;
-		right: 0;
-		width: 35%;
+		width: auto;
 	}
 	.article_container{
 		width: 45%;
@@ -452,6 +496,15 @@ body{
 		width: 30%;
 	}
 }
+@media screen and (min-width: 896px) {
+	.logo_container{
+		order: 2;
+		width: 30%;
+		margin: 0;
+	}
+	.nav_container .ul_container1{order: 1;}
+	.nav_container .ul_container2{order: 3;}
+}
 @media screen and (min-width: 1024px) {
 	.search_total{
 		top: 0;
@@ -461,9 +514,23 @@ body{
 		top: 21%;
 	}
 	.nav_container{
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		padding: 3em 0;
 		font-size: 1.2em;
 	}
+	.logo_container{
+		order: 2;
+		width: 30%;
+		margin: 0;
+	}
+
+	.nav_container .ul_container1{order: 1;}
+	.nav_container .ul_container2{order: 3;}
+
+
 	.section_articulos{
 		width: 100%;
 		padding-left: 4em;
