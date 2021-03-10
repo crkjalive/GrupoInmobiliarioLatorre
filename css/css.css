@@ -129,24 +129,38 @@ body{
 
 
 /* contenido dinamico */
-.section_dinamico{
+.container_dinamic{
+	display: block;
+	position: relative;
 	max-width: 1365px;
 	width: 100%;
-	z-index: 0;
-	background-color: white;
+	margin: 1em 0;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #A6E22E;
+	/* background-color: red;; */
+	
+}
+.section_dinamico{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto 2em;
-	background-color: tomato;
+	text-align: center;
+	
 }
-.section_dinamico p{
+.section_dinamico h1{
 	position: absolute;
-	color: #A6E22E;	
+	z-index: 1;
+}
+.section_dinamico div {
+	width: 100%;
 }
 .section_dinamico img{
 	opacity: 30%;
 	width: 100%;
+	z-index: 0;
+	max-height: 710px;
+	margin: auto;
 }
 
 
@@ -159,6 +173,10 @@ body{
 	text-align: center;
 	width: 100%;
 	margin-bottom: 100px;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #A6E22E;
+	padding: 1em 0;
 }
 .article_container{
 	border-radius: 8px;
@@ -237,6 +255,7 @@ body{
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+	padding-bottom: 1em;
 }
 .footer_container .gil{
 	width: 100%;
@@ -310,7 +329,7 @@ body{
 	color: transparent;
 }
 .search_container{
-	margin: 10.5em 0;
+	margin: 0 0 100px 0;
 	padding: 2em 0;
 	transform: translate(20em 0);
 	transition: all 3000ms ease-in-out;
@@ -404,14 +423,14 @@ body{
 		padding: .5em;
 		font-size: 1.5em;
 	}
+	.section_dinamico h1{
+		font-size: .8em;
+	}
+	.section_dinamico img{
+		max-height: 180px;
+	}
 	.article_container{
 		width: 100%;
-	}
-	.section_dinamico p{
-		width: 90%;
-		text-align: center;
-		font-size: 2em;
-		margin: 0;
 	}
 
 	.search_table{
@@ -437,6 +456,12 @@ body{
 	.nav_container .ul_container2{
 		width: 35%;
 		text-align: center;
+	}
+	.section_dinamico h1{
+		font-size: 1.2em;
+	}
+	.section_dinamico img{
+		max-height: 300px;
 	}
 	.item_item{
 		width: 45%;
@@ -473,6 +498,12 @@ body{
 	}
 	.nav_container .ul_container2{
 		width: auto;
+	}
+	.section_dinamico h1{
+		font-size: 1.5em;
+	}
+	.section_dinamico img{
+		max-height: 400px;
 	}
 	.article_container{
 		width: 45%;
@@ -518,7 +549,12 @@ body{
 	.nav_container .ul_container1{order: 1;}
 	.nav_container .ul_container2{order: 3;}
 
-
+	.section_dinamico h1{
+		font-size: 1.8em;
+	}
+	.section_dinamico img{
+		max-height: 520px;
+	}
 	.section_articulos{
 		justify-content: space-around;
 		max-width: 1365px;
@@ -547,6 +583,12 @@ body{
 	}
 	.article_container{
 		width: 22%;
+	}
+	.section_dinamico h1{
+		font-size: 2em;
+	}
+	.section_dinamico img{
+		max-height: 670px;
 	}
 	.section_articulos{
 		padding: 0 2em;
