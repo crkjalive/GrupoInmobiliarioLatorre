@@ -24,6 +24,14 @@ body{
 	background-color: white ;
 }
 
+.page_limit{
+	width: 100%;
+	max-width: 1365px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
 
 /* logo */
 .logo_container {
@@ -95,7 +103,6 @@ body{
 .redes_container{
 	position: fixed;
 	top: calc(50% - 180px);
-	left: 0;
 	z-index: 1000;
 }
 .redes_container .redes_sociales{
@@ -124,6 +131,7 @@ body{
 /* contenido dinamico */
 .section_dinamico{
 	max-width: 1365px;
+	width: 100%;
 	z-index: 0;
 	background-color: white;
 	display: flex;
@@ -138,6 +146,7 @@ body{
 }
 .section_dinamico img{
 	opacity: 30%;
+	width: 100%;
 }
 
 
@@ -149,7 +158,7 @@ body{
 	justify-content: center;
 	text-align: center;
 	width: 100%;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 .article_container{
 	border-radius: 8px;
@@ -184,10 +193,10 @@ body{
 .article_image{
 	z-index: 2000;
 	width: 100%;
-}
-.article_img{
-	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 	height: 300px;
+	overflow: hidden;
 }
 .items{
 	display: flex;
@@ -387,6 +396,7 @@ body{
 		width: 50%;
 	}
 	.redes_container{
+		z-index: 10000;
 		top: 0;
 	}
 	.redes_container .redes_sociales .link_icon{
@@ -403,9 +413,7 @@ body{
 		font-size: 2em;
 		margin: 0;
 	}
-	.section_articulos{
-		padding-left: 4em;
-	}
+
 	.search_table{
 		padding-left: 4em;
 	}
@@ -429,9 +437,6 @@ body{
 	.nav_container .ul_container2{
 		width: 35%;
 		text-align: center;
-	}
-	.section_articulos{
-		padding-left: 4em;
 	}
 	.item_item{
 		width: 45%;
@@ -494,7 +499,7 @@ body{
 		border-radius: 0 .5em .5em 0;
 	}
 	.redes_container{
-		top: 21%;
+		top: 300px;
 	}
 	.nav_container{
 		position: relative;
@@ -537,11 +542,14 @@ body{
 	}
 }
 @media screen and (min-width: 1280px) {
+	.redes_container{
+		top: 340px;
+	}
 	.article_container{
 		width: 22%;
 	}
 	.section_articulos{
-		padding: 0 1em;
+		padding: 0 2em;
 	}
 	.item_item{
 		width: 15%;

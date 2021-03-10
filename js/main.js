@@ -60,7 +60,7 @@ const items = [
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
 		add: "parqueadero cubierto",
 		link: "https://www.facebook.com/photo?fbid=125011449626969&set=pcb.125011846293596",
-		price: "<b>Negociables</b> $80.000.000"
+		price: "<b>Precio</b> pendiente"
 	},
 ];
 
