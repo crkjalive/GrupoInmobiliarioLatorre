@@ -247,6 +247,7 @@ body{
 
 
 /* footer */
+
 .footer_container{
 	display: flex;
 	flex-wrap: wrap;
@@ -266,6 +267,7 @@ body{
 
 
 /* titles container */
+
 .titles_container{
 	box-shadow: 0px 10px 35px #FD971F;
 	margin: 5em 0 3em;
