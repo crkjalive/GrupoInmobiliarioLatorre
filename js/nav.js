@@ -31,7 +31,7 @@ const logo_create = () => {
     a.href = `index.html`;
     let img = document.createElement('img');
     img.className = 'logo';
-    img.src = './img/gil.png';
+    img.src = './img/gil.jpg';
     img.alt = 'Grupo Inmobiliario Latorre';
     document.getElementById('logo_container').appendChild(a).appendChild(img)
 }
@@ -57,7 +57,8 @@ const sociales_create = () => {
     youtube.href = `https://youtube.com/`;
 
     const googleMaps = document.createElement('a');
-    googleMaps.className = " link_icon icon-mobile"
+    googleMaps.className = " link_icon"
+    googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMaps.svg'/> "
     googleMaps.target = '_blank';
     googleMaps.href = `https://www.google.com/maps/`;
     googleMaps.alt = `google.com maps`;

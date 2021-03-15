@@ -116,7 +116,7 @@ body{
 	box-shadow: 1px 1px 3px #272822;
 	background-color: rgb(255, 255, 255);
 	border-radius: 8px;;
-	padding: .5em;
+	padding: .2em;
 	transform: rotate(-15deg);
 
 	transition: all 500ms ease;
@@ -125,6 +125,11 @@ body{
 .redes_container .redes_sociales .link_icon:hover{
 	font-size: 3em;
 	transform: rotate(0deg);
+}
+.redes_container .redes_sociales .maps{
+	width: 1.5em;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -137,26 +142,29 @@ body{
 	margin: 1em 0;
 	border-radius: 10px;
 	overflow: hidden;
-	border: 1px solid #A6E22E;
-	/* background-color: red;; */
-	
+	/* border: 1px solid #A6E22E;	 */
 }
 .section_dinamico{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	margin-bottom: 1em;
 	
 }
 .section_dinamico h1{
 	position: absolute;
 	z-index: 1;
+	color: white;
+	padding: 1em;
+	text-shadow: 1px 1px 5px black;
+	border-radius: .5em;
 }
 .section_dinamico div {
 	width: 100%;
 }
 .section_dinamico img{
-	opacity: 30%;
+	opacity: 70%;
 	width: 100%;
 	z-index: 0;
 	max-height: 710px;
@@ -166,27 +174,25 @@ body{
 
 /* section articulos */
 .section_articulos{
-	background-color: #efefef;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
-	width: 100%;
-	margin-bottom: 100px;
+	padding: 0 0 100px 0;
+	margin: 0 ;
 	border-radius: 10px;
 	overflow: hidden;
-	border: 1px solid #A6E22E;
-	padding: 1em 0;
 }
 .article_container{
 	border-radius: 8px;
 	background-color: white;
 	text-align: left;
-	margin: 2em 1em .5em;
+	margin:.5em 0;
 	width: 40%;
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
+	border: 1px solid #FD971F;
 }
 .article_container .dibujo{
 	position: absolute;
@@ -257,6 +263,7 @@ body{
 	width: 100%;
 	bottom: 0;
 	padding-bottom: 1em;
+	margin-top: 100px;
 }
 .footer_container .gil{
 	width: 100%;
@@ -327,15 +334,12 @@ body{
 }
 
 /* search */
-.id_page{
-	color: transparent;
-}
 .search_container{
 	margin: 0 0 100px 0;
-	padding: 2em 0;
+	padding: 0;
 	transform: translate(20em 0);
 	transition: all 3000ms ease-in-out;
-	background-color: #f7f7f7;
+	background-color: white;
 }
 .search_total{
 	position: fixed;
@@ -422,14 +426,21 @@ body{
 	}
 	.redes_container .redes_sociales .link_icon{
 		margin: .2em .3em;
-		padding: .5em;
-		font-size: 1.5em;
+		padding: .3em;
+		font-size: 2em;
+	}
+	.section_dinamico{
+		margin: 1em .5em;
 	}
 	.section_dinamico h1{
 		font-size: .8em;
+		width: 90%;
 	}
 	.section_dinamico img{
-		max-height: 180px;
+		width: 100%;
+	}
+	.section_articulos{
+		margin: 0 .5em;
 	}
 	.article_container{
 		width: 100%;
@@ -463,7 +474,7 @@ body{
 		font-size: 1.2em;
 	}
 	.section_dinamico img{
-		max-height: 300px;
+		width: 100%;
 	}
 	.item_item{
 		width: 45%;
@@ -501,14 +512,29 @@ body{
 	.nav_container .ul_container2{
 		width: auto;
 	}
+	.section_dinamico div{
+		display: flex;
+		width: 100%;
+		max-width: 800px;
+		text-align: center;
+		justify-content: center;
+	}
 	.section_dinamico h1{
 		font-size: 1.5em;
+		width: 90%;
+		max-width: 800px;
 	}
 	.section_dinamico img{
-		max-height: 400px;
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.section_articulos{
+		justify-content: space-around;
 	}
 	.article_container{
 		width: 45%;
+		margin: .5em;
 	}
 	.search_table{
 	padding: 2em;
@@ -553,27 +579,29 @@ body{
 
 	.section_dinamico h1{
 		font-size: 1.8em;
+		width: 100%;
+		padding: 0 1em;
 	}
 	.section_dinamico img{
-		max-height: 520px;
+		width: 100%;
+		max-width: 800px;
 	}
 	.section_articulos{
-		justify-content: space-around;
+		justify-content: center;
 		max-width: 1365px;
-		margin: 0 auto;
 		width: 100%;
 	}
 	.article_container{
-		min-width: 30%;
-		width: 30%;
+		width: 33%;
+		margin: .5em;
 	}
 	.article_container:nth-child(7){order:1;width: 30%;}
 	.article_container:nth-child(1){order:2;width: 30%;}
 	.article_container:nth-child(2){order:3;width: 30%;}
 	.article_container:nth-child(3){order:4;width: 45%;}
 	.article_container:nth-child(4){order:13;width: 45%;}
-	.article_container:nth-child(5){order:14;width: 30%;}
-	.article_container:nth-child(6){order:15;width: 60%;}
+	.article_container:nth-child(5){order:14;width: 35%;}
+	.article_container:nth-child(6){order:15;width: 55%;}
 
 	.item_item{
 		width: 22%;
@@ -588,12 +616,11 @@ body{
 	}
 	.section_dinamico h1{
 		font-size: 2em;
-	}
-	.section_dinamico img{
-		max-height: 670px;
+		max-width: 800px;
 	}
 	.section_articulos{
 		padding: 0 2em;
+		margin: 0 0 100px 0;
 	}
 	.item_item{
 		width: 15%;
