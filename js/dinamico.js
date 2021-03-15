@@ -1,7 +1,7 @@
 const objects = [
     {
         image: "<img src='./img/foto1.jpg'>",
-        description: "Grupo Inmobiliario Latorre <br> Empresa conformada desde hace más de 15 años. <br> Asesorando a nuestros clientes para que hagan <br> el mejor negocio de su vida ",
+        description: "Grupo Inmobiliario Latorre <br> Empresa conformada desde hace <br> más de 15 años. <br> Asesorando a nuestros clientes <br> para que hagan el mejor negocio de su vida ",
     },
     {
         image: "<img src='./img/foto2.jpg'>",
@@ -16,21 +16,21 @@ const objects = [
         description: "Amplio catalogo, en casas, apartamentos, <br> bodegas, fincas, locales, garajes, <br> solo busque por la dirección en <br> Google Maps, y puede ver la ubicacion del predio",
     },
     {
-        image: "<img src='./img/foto5.jpg'>",
-        description: "Amplio catalogo, en casas, apartamentos, bodegas, fincas, locales, garajes, <br> solo busque por la dirección en Google Maps, y puede ver la ubicacion del predio",
-    },
-    {
         image: "<img src='./img/foto6.jpg'>",
         description: "Busque segun la zona en la que quiera hacer la inversion, encuentre y agendamos una cita para hacer la visita, y enseñarte el proceso de alquiler o compra <br>  ",
+    },
+    {
+        image: "<img src='./img/foto5.jpg'>",
+        description: "Atencion al usuario: <br> Cel: 3192205259 - 3192205260 <br> Area comercial: Cel: 3153125559",
     },
     {
         image: "<img src='./img/gil.jpg'>",
         description: "",
     },
-    // {
-    //     image: "<img src='./img/imagenDemo.jpg'>",
-    //     description: "Amplio catalogo, en casas, apartamentos, bodegas, fincas, locales, garajes, <br> solo busque por la dirección en Google Maps, y puede ver la ubicacion del predio",
-    // },
+    {
+        image: "<img src='./img/imagenDemo.jpg'>",
+        description: "Estamos en todas las redes sociales <br> escribanos por Whatsapp o Messenger <br> reciba respuesta inmediatamente <br> son mas de 2000 predios en Bogotá",
+    },
 
 ];
 

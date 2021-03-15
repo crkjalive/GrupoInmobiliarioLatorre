@@ -51,11 +51,6 @@ const sociales_create = () => {
     facebook.target = '_blank';
     facebook.href = `https://www.facebook.com/grupoinmobiliario.latorre.7/`;
 
-    const youtube = document.createElement('a');
-    youtube.className = " link_icon icon-youtube";
-    youtube.target = '_blank';
-    youtube.href = `https://youtube.com/`;
-
     const googleMaps = document.createElement('a');
     googleMaps.className = " link_icon"
     googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMaps.svg'/> "
@@ -68,7 +63,6 @@ const sociales_create = () => {
             googleMaps,
             whatsapp,
             facebook,
-            youtube,
         );
 }
 sociales_create();
@@ -76,12 +70,27 @@ sociales_create();
 
 const footer_create = () => {
     const footer_container = document.getElementById('footer_container');
+
     const gil = document.createElement('div');
-    const gil2 = document.createElement('div');
     gil.className = 'gil';
-    gil.textContent = 'Grupo Inmobiliario Latorre';
+    gil.textContent = 'Grupo Inmobiliario Latorre'.toUpperCase();
+    gil.style.fontSize = "1.2em"
+    gil.style.color = "#272822"
+    
+    const gil2 = document.createElement('div');
     gil2.className = 'gil2';
+    gil2.style.fontSize = ".9em"
     gil2.textContent = '© Todos los derechos reservados 2020 ';
-    footer_container.append(gil, gil2);
+    
+    const gil3 = document.createElement('div');
+    gil3.className = 'gil3';
+    gil3.style.color = "#272822"
+    gil3.innerHTML = "<p><span class='icon-bubbles'> grupoinmobiliariolatorre@gmail.com <span class='icon-whatsapp '> 3192205259 <span><span class='icon-whatsapp'> 3192205260</span></p>";
+
+    footer_container.append(
+        gil,
+        gil3,
+        gil2,
+    );
 }
 footer_create();
