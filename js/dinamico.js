@@ -24,10 +24,6 @@ const objects = [
         description: "Atencion al usuario: <br> Cel: 3192205259 - 3192205260 <br> Area comercial: Cel: 3153125559",
     },
     {
-        image: "<img src='./img/gil.jpg'>",
-        description: "",
-    },
-    {
         image: "<img src='./img/imagenDemo.jpg'>",
         description: "Estamos en todas las redes sociales <br> escribanos por Whatsapp o Messenger <br> reciba respuesta inmediatamente <br> son mas de 2000 predios en Bogotá",
     },
@@ -70,7 +66,7 @@ function send() {
 
         counter++
         timex();
-        console.log(robin, counter)
+        // console.log(robin, counter)
     } else {
         counter = 0;
         // console.log(counter)

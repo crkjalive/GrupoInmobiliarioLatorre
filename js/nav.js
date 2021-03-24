@@ -5,7 +5,9 @@ const data_redes = ['whatsapp', 'facebook', 'instagram', 'Google'];
 let ul_container1 = document.getElementById('ul_container1');
 let ul_container2 = document.getElementById('ul_container2');
 
-const numero = "3192205259";
+const numero1 = "3153125559";
+const numero3 = "3192205259";
+const numero2 = "3192205260";
 
 
 const menu_create = (contenedor, array) => {
@@ -42,26 +44,41 @@ const sociales_create = () => {
     const redes_sociales = document.getElementById('redes_sociales');
 
     const whatsapp = document.createElement('a');
-    whatsapp.className = " link_icon icon-whatsapp";
+    whatsapp.className = "";
+    whatsapp.innerHTML = "<img class='whastapp' src='./img/Whatsapp1.svg '/> "
     whatsapp.target = '_blank';
-    whatsapp.href = `https://api.whatsapp.com/send?phone=57${numero}/`;
+    whatsapp.href = `https://api.whatsapp.com/send?phone=57${numero1}/`;
+
+    const whatsapp2 = document.createElement('a');
+    whatsapp2.className = "";
+    whatsapp2.innerHTML = "<img class='whastapp' src='./img/Whatsapp2.svg '/> "
+    whatsapp2.target = '_blank';
+    whatsapp2.href = `https://api.whatsapp.com/send?phone=57${numero2}/`;
+
+    const whatsapp3 = document.createElement('a');
+    whatsapp3.className = "";
+    whatsapp3.innerHTML = "<img class='whastapp' src='./img/Whatsapp3.svg '/> "
+    whatsapp3.target = '_blank';
+    whatsapp3.href = `https://api.whatsapp.com/send?phone=57${numero3}/`;
 
     const facebook = document.createElement('a');
-    facebook.className = " link_icon icon-facebook";
+    facebook.className = "";
+    facebook.innerHTML = "<img class='facebook' src='./img/Facebook.svg'/> "
     facebook.target = '_blank';
     facebook.href = `https://www.facebook.com/grupoinmobiliario.latorre.7/`;
 
     const googleMaps = document.createElement('a');
-    googleMaps.className = " link_icon"
-    googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMaps.svg'/> "
+    googleMaps.className = ""
+    googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMap.svg'/> "
     googleMaps.target = '_blank';
     googleMaps.href = `https://www.google.com/maps/`;
-    googleMaps.alt = `google.com maps`;
 
     redes_sociales
         .append(
             googleMaps,
             whatsapp,
+            whatsapp2,
+            whatsapp3,
             facebook,
         );
 }
@@ -71,26 +88,27 @@ sociales_create();
 const footer_create = () => {
     const footer_container = document.getElementById('footer_container');
 
-    const gil = document.createElement('div');
-    gil.className = 'gil';
-    gil.textContent = 'Grupo Inmobiliario Latorre'.toUpperCase();
-    gil.style.fontSize = "1.2em"
-    gil.style.color = "#272822"
+    const title = document.createElement('div');
+    title.className = 'title';
+    title.textContent = 'Grupo Inmobiliario Latorre'.toUpperCase();
     
-    const gil2 = document.createElement('div');
-    gil2.className = 'gil2';
-    gil2.style.fontSize = ".9em"
-    gil2.textContent = '© Todos los derechos reservados 2020 ';
+    const derechos = document.createElement('div');
+    derechos.className = 'derechos';
+    derechos.textContent = '© Todos los derechos reservados 2020 ';
     
-    const gil3 = document.createElement('div');
-    gil3.className = 'gil3';
-    gil3.style.color = "#272822"
-    gil3.innerHTML = "<p><span class='icon-bubbles'> grupoinmobiliariolatorre@gmail.com <span class='icon-whatsapp '> 3192205259 <span><span class='icon-whatsapp'> 3192205260</span></p>";
+    const correo = document.createElement('div');
+    correo.className = 'correo';
+    correo.innerHTML = "<p>grupoinmobiliariolatorre@gmail.com</p>";
+
+    const contacto = document.createElement('div');
+    contacto.className = 'contacto';
+    contacto.innerHTML = "<p><span class='icon-whatsapp'> 3153125559 </span><span class='icon-whatsapp '> 3192205259 </span><span class='icon-whatsapp'> 3192205260 </span></p>";
 
     footer_container.append(
-        gil,
-        gil3,
-        gil2,
+        title,
+        contacto,
+        correo,
+        derechos,
     );
 }
 footer_create();
