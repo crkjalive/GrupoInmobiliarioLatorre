@@ -1,2 +1,3 @@
 # Grupo Inmobiliario Latorre
- proyecto web
+proyecto web
+venta de casas, apartamentos, locales
