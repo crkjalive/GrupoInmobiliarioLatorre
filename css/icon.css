@@ -55,8 +55,10 @@
   content: "\ea92";
 }
 .icon-whatsapp:before {
-  color: #1BD741;
+  color: white;
   content: "\ea93";
+  background-color: #1BD741;
+  border-radius: 50%;
 }
 .icon-youtube:before {
   color: #ff0000;

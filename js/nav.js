@@ -76,10 +76,10 @@ const sociales_create = () => {
     redes_sociales
         .append(
             googleMaps,
+            facebook,
             whatsapp,
             whatsapp2,
             whatsapp3,
-            facebook,
         );
 }
 sociales_create();

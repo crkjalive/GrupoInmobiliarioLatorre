@@ -44,6 +44,7 @@ body{
 	padding: 0 .5em;
 	border-radius: 0 0 0 .5em;
 	box-shadow: 0px 4px 8px #A6E22E;
+	background-color: white;
 	position: relative;
 	z-index: 1000;
 }
@@ -110,8 +111,9 @@ body{
 /* redes sociales */
 .redes_container{
 	position: fixed;
-	/* top: calc(50% - 180px); */
-	z-index: 2000;
+	z-index: 5000;
+	top: 0;
+	font-size: 1.5em;
 }
 .redes_container .redes_sociales{
 	display: flex;
@@ -122,15 +124,15 @@ body{
 .redes_container .redes_sociales .whastapp, 
 .redes_container .redes_sociales .facebook,
 .redes_container .redes_sociales .maps{
-	box-shadow: 1px 1px 3px #272822;
+	box-shadow: 0px 2px 5px lightgrey;
 	background-color: rgb(255, 255, 255);
-	border-radius: .5em;
-	transform: rotate(-15deg);
+	border-radius: 8px;
+	transform: rotate(-10deg);
 	width: 2em;
 
 	transition: all 500ms ease;
 	margin: .5em 0 0 .5em ;
-	padding: .2em;
+	/* padding: .2em; */
 }
 .redes_container .redes_sociales .maps:hover,
 .redes_container .redes_sociales .facebook:hover,
@@ -204,8 +206,8 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
-	border: 1px solid #E9EAE6;
-	box-shadow: 0px 1px 4px #3E3D32;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 0px 5px lightgrey;
 	color: #272822;
 }
 .article_container .dibujo{
@@ -418,7 +420,7 @@ body{
 }
 
 
-/* MediaQueries */
+/* breakpoint 1*/
 @media screen and (min-width: 0px) {
 	.nav_container{
 		width: 100%;
@@ -449,10 +451,6 @@ body{
 		order: 2;
 		width: 50%;
 	}
-	.redes_container{
-		z-index: 10000;
-		top: 0;
-	}
 	.redes_container .redes_sociales .link_icon{
 		font-size: 2em;
 	}
@@ -477,7 +475,11 @@ body{
 		width: 100%;
 	}
 }
+/* breakpoint 2 */
 @media screen and (min-width: 640px) {
+	.redes_container{
+		top: 1em;
+	}
 	.nav_container{
 		display: flex;
 		flex-wrap: wrap;
@@ -501,10 +503,10 @@ body{
 		width: 45%;
 	}
 }
+/* breakpoint 3 */
 @media screen and (min-width: 768px) {
 	.redes_container{
-		top: 15%;
-		z-index: 5000;
+		top: 2.5em;
 	}
 	.nav_container{
 		position: relative;
@@ -566,30 +568,36 @@ body{
 		width: 30%;
 	}
 }
+/* breakpoint 4 */
 @media screen and (min-width: 896px) {
+	.redes_container{
+		top: 7em;
+	}
 	.logo_container{
 		order: 2;
-		width: 30%;
+		width: 20%;
 		margin: 0;
 	}
 	.nav_container .ul_container1{order: 1;}
 	.nav_container .ul_container2{order: 3;}
 }
+/* breakpoint 5 */
 @media screen and (min-width: 1024px) {
 	.redes_container{
-		top: 300px;
+		top: 6em;
+		font-size: 1.7em;
 	}
 	.nav_container{
 		position: relative;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		padding: 3em 0;
-		font-size: 1em;
+		padding: 1em 0;
+		font-size: 1.2em;
 	}
 	.logo_container{
 		order: 2;
-		width: 25%;
+		width: 20%;
 		margin: 0;
 	}
 
@@ -628,9 +636,15 @@ body{
 		width: 22%;
 	}
 }
+/* breakpoint 6 */
 @media screen and (min-width: 1280px) {
 	.redes_container{
-		top: 340px;
+		top: 0;
+		font-size: 2em;
+	}
+	.nav_container{
+		font-size: 1.4em;
+		background-color: #A6E22E;
 	}
 	.article_container{
 		width: 22%;
@@ -650,5 +664,17 @@ body{
 	}
 	.footer_container{
 		text-align: center;
+		background-color: #A6E22E;
+	}
+	.footer_container .title{
+		font-size: 1.5em;
+	}
+	.footer_container .contacto, .correo{
+		font-size: 1.3em;
+		display: block;
+	}
+	.footer_container .derechos{
+		background-color: #272822;
+		font-size: 1em;
 	}
 }
