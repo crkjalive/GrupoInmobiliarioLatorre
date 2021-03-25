@@ -639,7 +639,7 @@ body{
 /* breakpoint 6 */
 @media screen and (min-width: 1280px) {
 	.redes_container{
-		top: 0;
+		top: 5em;
 		font-size: 2em;
 	}
 	.nav_container{
