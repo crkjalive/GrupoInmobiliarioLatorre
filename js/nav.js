@@ -40,7 +40,7 @@ const logo_create = () => {
 logo_create();
 
 
-const sociales_create = () => {
+const sociales_create = async () => {
     const redes_sociales = document.getElementById('redes_sociales');
 
     const whatsapp = document.createElement('a');
