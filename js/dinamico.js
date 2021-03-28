@@ -13,15 +13,15 @@ const objects = [
     },
     {
         image: "<img src='./img/foto4.jpg'>",
-        description: "Amplio catalogo, en casas, apartamentos, <br> bodegas, fincas, locales, garajes, <br> solo busque por la dirección en <br> Google Maps, y puede ver la ubicacion del predio",
+        description: "Amplio catálogo, en casas, apartamentos, <br> bodegas, fincas, locales, garajes, <br> solo busque por la dirección en <br> Google Maps, y puede ver la ubicacion del predio",
     },
     {
         image: "<img src='./img/foto6.jpg'>",
-        description: "Busque segun la zona en la que quiera hacer la inversion, encuentre y agendamos una cita para hacer la visita, y enseñarte el proceso de alquiler o compra <br>  ",
+        description: "Zona de Bogotá en la que quiera hacer la inversion, busca y agendamos una cita para hacer la visita, y enseñarte el proceso de alquiler y/o compra <br>  ",
     },
     {
         image: "<img src='./img/foto5.jpg'>",
-        description: "Atencion al usuario: <br> Cel: 3192205259 - 3192205260 <br> Area comercial: Cel: 3153125559",
+        description: "Atencion al usuario: <br> Cel: 3192205259 <br> Area comercial: Cel: 3153125559",
     },
 ];
 
@@ -41,7 +41,7 @@ function timex() {
     if (counter != 0) {
         setTimeout(() => {
             send();
-        }, 4000)
+        }, 5000)
     } else {
         setTimeout(() => {
             send();

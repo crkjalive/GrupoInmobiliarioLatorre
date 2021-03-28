@@ -6,8 +6,8 @@ let ul_container1 = document.getElementById('ul_container1');
 let ul_container2 = document.getElementById('ul_container2');
 
 const numero1 = "3153125559";
-const numero3 = "3192205259";
-const numero2 = "3192205260";
+const numero2 = "3192205259";
+const numero3 = "3192205260";
 
 
 const menu_create = (contenedor, array) => {
@@ -79,7 +79,6 @@ const sociales_create = async () => {
             facebook,
             whatsapp,
             whatsapp2,
-            whatsapp3,
         );
 }
 sociales_create();

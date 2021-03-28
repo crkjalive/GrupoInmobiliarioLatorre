@@ -25,12 +25,13 @@ body{
     color: #272822;
 }
 .h1_title{
-	margin: .5em 1em;
+	margin: 2em auto 1em;
 	padding-right: 1.5em;
 	display: block;
 	font-style: italic;
 	border-bottom: 1px solid #A6E22E;
 	text-align: right;
+	max-width: 1365px;
 }
 
 /* logo */
