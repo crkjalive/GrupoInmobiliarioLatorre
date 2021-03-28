@@ -101,7 +101,7 @@ const footer_create = () => {
 
     const contacto = document.createElement('div');
     contacto.className = 'contacto';
-    contacto.innerHTML = "<p><span class='icon-whatsapp'> 3153125559 </span><span class='icon-whatsapp '> 3192205259 </span><span class='icon-whatsapp'> 3192205260 </span></p>";
+    contacto.innerHTML = "<p><span class='icon-whatsapp'> 3153125559 </span><span class='icon-whatsapp '> 3192205259 </span></p>";
 
     footer_container.append(
         title,
