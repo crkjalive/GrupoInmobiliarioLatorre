@@ -536,6 +536,9 @@ body{
 	.nav_container .ul_container2{
 		width: auto;
 	}
+	.section_dinamico{
+		height: 375px;
+	}
 	.section_dinamico div{
 		display: flex;
 		width: 100%;
@@ -603,7 +606,9 @@ body{
 
 	.nav_container .ul_container1{order: 1;}
 	.nav_container .ul_container2{order: 3;}
-
+	.section_dinamico{
+		height: 400px;
+	}
 	.section_dinamico h1{
 		font-size: 1.8em;
 		width: 90%;
@@ -649,6 +654,10 @@ body{
 	.article_container{
 		width: 22%;
 	}
+	.section_dinamico{
+		height: 400px;
+	}
+
 	.section_dinamico h1{
 		font-size: 2em;
 		padding: 1em;
