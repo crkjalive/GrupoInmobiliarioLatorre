@@ -493,6 +493,10 @@ iframe{
 	.search_table{
 		padding-left: 4em;
 	}
+
+	.item_item{
+		width: 100%;
+	}
 }
 /* breakpoint 2 */
 @media screen and (min-width: 640px) {
@@ -584,6 +588,9 @@ iframe{
 	.search_table{
 	padding: 2em;
 	}
+	.item_item{
+		width: 45%;
+	}
 }
 /* breakpoint 4 */
 @media screen and (min-width: 896px) {
@@ -650,6 +657,7 @@ iframe{
 	.article_container:nth-child(4){order:13;width: 45%;}
 	.article_container:nth-child(5){order:14;width: 35%;}
 	.article_container:nth-child(6){order:15;width: 55%;}
+
 }
 /* breakpoint 6 */
 @media screen and (min-width: 1280px) {
@@ -677,6 +685,9 @@ iframe{
 	.section_articulos{
 		padding: 0 2em;
 		margin: 0 auto;
+	}
+	.item_item{
+		width: 30%;
 	}
 	.footer_container{
 		text-align: center;
