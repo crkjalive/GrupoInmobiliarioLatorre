@@ -16,7 +16,7 @@ window.load = () => {
     const total = document.createElement("div");
 
     for (let i = 0; i < data.length; i++) {
-      if (data[i].clase == id_page_text) {
+      if (data[i].clase == id_page_text ) { // && data[i].zona == "central"
         let item_item = document.createElement("div");
         item_item.className = "item_item";
 
