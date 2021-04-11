@@ -6,7 +6,7 @@ let ul_container1 = document.getElementById('ul_container1');
 let ul_container2 = document.getElementById('ul_container2');
 
 const numero1 = "3153125559";
-const numero2 = "3166471805";
+const numero2 = "3192205259";
 const numero3 = "3192205260";
 
 
@@ -104,7 +104,7 @@ const footer_create = () => {
 
 	const contacto = document.createElement('div');
 	contacto.className = 'contacto';
-	contacto.innerHTML = "<p><span class='icon-whatsapp'> 3153125559 </span><span class='icon-whatsapp '> 3192205259 </span></p>";
+	contacto.innerHTML = `<p><span class='icon-whatsapp'> ${numero1} </span><span class='icon-whatsapp '> ${numero2} </span></p>`;
 
 	footer_container.append(
 		title,
