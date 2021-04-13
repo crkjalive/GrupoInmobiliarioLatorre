@@ -21,7 +21,7 @@ const objects = [
 	},
 	{
 		image: "<img src='./img/foto5.jpg'>",
-		description: "Atencion al usuario: <br> Cel: 3166471805 <br> Area comercial: <br> Cel: 3153125559",
+		description: `Atencion al usuario: <br> Cel: ${numero2} <br> Area comercial: <br> Cel: ${numero1}`,
 	},
 ];
 
