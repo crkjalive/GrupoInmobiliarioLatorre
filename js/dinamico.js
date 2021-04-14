@@ -1,3 +1,6 @@
+const linea1 = '3166471805'
+const linea2 = '3153125559'
+
 const objects = [
 	{
 		image: "<img src='./img/foto1.jpg'>",
@@ -21,7 +24,7 @@ const objects = [
 	},
 	{
 		image: "<img src='./img/foto5.jpg'>",
-		description: `Atencion al usuario: <br> Cel: ${numero2} <br> Area comercial: <br> Cel: ${numero1}`,
+		description: `Atencion al usuario: <br> Cel: ${linea1} <br> Area comercial: <br> Cel: ${linea2}`,
 	},
 ];
 
