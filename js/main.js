@@ -127,7 +127,7 @@ const send = () => {
 					<h3 class="item_title">${robin.title}</h3>
 					<p class="item_description">${robin.description}</p>
 					<p class="item_add">${robin.add}</p>
-					<a href="${robin.link}" class="item_link icon-facebook" target="_blank"> Más fotos en Facebook</a>
+					<a href="${robin.link}" class="item_link icon-facebook" target="_blank"> Más fotos</a>
 					<p class="item_price">${robin.price}</p>
 					<div class="dibujo"></div>
 					<div class="dibujo2"></div>
