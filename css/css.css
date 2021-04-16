@@ -2,9 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: arial,Raleway,sans-serif
+  font-family: 'arial','Raleway';
 }
 a {
+  font-family: "Arial";
   text-decoration: none;
   color: #272822
 }
@@ -183,63 +184,53 @@ body {
   box-shadow: 0 0 5px #d3d3d3;
   color: #272822
 }
-.article_container .dibujo {
-  position: absolute;
-  background-color: #fd971f;
-  padding: 3em;
-  width: 100%;
-  transform: rotate(-4deg);
-  z-index: -1;
-  float: left;
-  bottom: -80px
-}
-.article_container .dibujo2 {
-  position: absolute;
-  background-color: #66d9ef;
-  padding: 3em;
-  width: 12em;
-  transform: rotate(-4deg);
-  z-index: -3500;
-  float: left;
-  bottom: 200px
-}
 .article_image {
   z-index: 2000;
   width: 100%;
   margin: 0 auto;
   text-align: center;
   height: 300px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px #3e3d32
+  /*overflow: hidden;*/
 }
 .items {
   display: flex;
   flex-wrap: wrap;
   padding: 1em;
   position: relative;
-  z-index: 500
+  z-index: 2500
 }
 .item_title {
+  background-color: rgba(254,254,254,.9);
   width: 100%;
-  padding: .5em 0
+  padding: .5em;
+  border-radius: 4px;
 }
 .item_description {
-  padding: .5em 0;
+  background-color: rgba(254,254,254,.9);
+  padding: 0 .5em;
   width: 100%
 }
 .item_add {
+  padding: 0 .5em;
   width: 100%
+}
+.item_link{
+  padding: 4px;
+  background-color: white;
+  font-family: arial;
+  font-style: italic;
 }
 .item_price {
   font-size: 1.5em;
   width: 100%;
   text-align: right;
-  bottom: 0
+  bottom: 0;
+  margin-top: .5em;
 }
 .item_price b {
   font-size: .8em;
   bottom: 1em;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 .footer_container {
   display: flex;
@@ -606,34 +597,6 @@ iframe {
     width: 33%;
     margin: .5em
   }
-  .article_container:nth-child(7) {
-    order: 1;
-    width: 30%
-  }
-  .article_container:nth-child(1) {
-    order: 2;
-    width: 30%
-  }
-  .article_container:nth-child(2) {
-    order: 3;
-    width: 30%
-  }
-  .article_container:nth-child(3) {
-    order: 4;
-    width: 45%
-  }
-  .article_container:nth-child(4) {
-    order: 13;
-    width: 45%
-  }
-  .article_container:nth-child(5) {
-    order: 14;
-    width: 35%
-  }
-  .article_container:nth-child(6) {
-    order: 15;
-    width: 55%
-  }
 }
 @media screen and (min-width:1280px) {
   .redes_container {
@@ -644,7 +607,7 @@ iframe {
     font-size: 1.4em;
   }
   .article_container {
-    width: 22%
+    width: 30%
   }
   .section_dinamico {
     height: 400px
@@ -657,7 +620,7 @@ iframe {
   }
   .section_articulos {
     padding: 0 2em;
-    margin: 0 auto
+    margin: 0 auto;
   }
   .item_item {
     width: 30%

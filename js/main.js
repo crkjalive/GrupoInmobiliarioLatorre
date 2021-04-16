@@ -1,42 +1,13 @@
 const items = [
 	{	
-		id:0,
-		image:"./venta/casa1.jpg",
-		title:"<strong>Venta Casa</strong> <br> Barrio: San Jorge ",
-		description:"Casa 162mts² <br> <strong>Primer Piso:</strong> 3 alcobas Sala Comedor Cocina, Baño, Patio y Garaje",
-		add: "<strong>Segundo piso:</strong> 4 habitaciones, sala comedor, cocina, baño <br> terraza cubierta.",
-		link: "https://www.facebook.com/photo?fbid=124990429629071&set=pcb.124990152962432",
-		price: "<b>Negociables</b> $420.000.000"
+		image: "./venta/sindamanoy.jpg",
+		title:"<strong>Venta: Casa campestre </strong> <br> Sector: Sindamanoy, Chia",
+		description:"Conjunto cerrado, <br> Area: 300 mts de casa y 1450 mts de lote <br> 5 Alcobas - Sala - Cocina - Comedor - Baños",
+		add: "4 parqueaderos",
+		link: "https://www.facebook.com/photo?fbid=142130401248407&set=pcb.142130661248381",
+		price: "<b>Precio</b> $1'500.000.000"
 	},
 	{	
-		id:1,
-		image: "./venta/lote1.jpg",
-		title:"<strong>Venta Lote</strong> <br> Sector de Suba, Bogotá",
-		description:"Se vende lote en Suba <br> Area de 20.000 metros <br> Estrato 3 <br> para hacer vivienda",
-		add: "Venta Directa",
-		link: "https://www.facebook.com/photo?fbid=124989882962459&set=pcb.124989949629119",
-		price: "<b>Negociables</b> $9'500.000.000"
-	},
-	{	
-		id:2,
-		image: "./venta/bodega1.jpg",
-		title:"<strong>Venta Bodega</strong> <br> Sector de Alamos, Bogotá",
-		description:"Bodega Aeropuerto Alamos <br> Area de Terreno 2.200 metros",
-		add: "",
-		link: "https://www.facebook.com/photo/?fbid=124979689630145&set=pcb.124979826296798",
-		price: "<b>Negociables</b> $2'200.000.000"
-	},
-	{	
-		id:3,
-		image: "./venta/bodegaFontibon.jpg",
-		title:"<strong>Venta Bodega</strong> <br> Sector de Fontibon, Bogotá",
-		description:"Fontibon Zona Industrial, mt² a 2 millones",
-		add: "28.000 mts² de lote <br> 16.000 mts² de Construcción",
-		link: "https://www.facebook.com/photo?fbid=124994629628651&set=pcb.124996576295123",
-		price: "<b>Negociables</b> $28.000.000.000"
-	},
-	{	
-		id:4,
 		image: "./venta/res1.jpg",
 		title:"<strong>Venta Edificio</strong> <br> Sector del Restrepo, Bogotá",
 		description:"Bodega de 3 pisos, <br> uso comercial, con local",
@@ -45,7 +16,38 @@ const items = [
 		price: "<b>Negociables</b> $1'500.000.000"
 	},
 	{	
-		id:5,
+		image:"./venta/casa1.jpg",
+		title:"<strong>Venta Casa</strong> <br> Barrio: San Jorge ",
+		description:"Casa 162mts² <br> <strong>Primer Piso:</strong> 3 alcobas Sala Comedor Cocina, Baño, Patio y Garaje",
+		add: "<strong>Segundo piso:</strong> 4 habitaciones, sala comedor, cocina, baño y terraza cubierta.",
+		link: "https://www.facebook.com/photo?fbid=124990429629071&set=pcb.124990152962432",
+		price: "<b>Negociables</b> $420.000.000"
+	},
+	{	
+		image: "./venta/lote1.jpg",
+		title:"<strong>Venta Lote</strong> <br> Sector de Suba, Bogotá",
+		description:"Se vende lote en Suba <br> Area de 20.000 metros <br> Estrato 3 para hacer vivienda",
+		add: "Venta Directa",
+		link: "https://www.facebook.com/photo?fbid=124989882962459&set=pcb.124989949629119",
+		price: "<b>Negociables</b> $9'500.000.000"
+	},
+	{	
+		image: "./venta/bodega1.jpg",
+		title:"<strong>Venta Bodega</strong> <br> Sector de Alamos, Bogotá",
+		description:"Bodega Aeropuerto Alamos <br> Area de Terreno 2.200 metros",
+		add: "",
+		link: "https://www.facebook.com/photo/?fbid=124979689630145&set=pcb.124979826296798",
+		price: "<b>Negociables</b> $2'200.000.000"
+	},
+	{	
+		image: "./venta/bodegaFontibon.jpg",
+		title:"<strong>Venta Bodega</strong> <br> Sector de Fontibon, Bogotá",
+		description:"Fontibon Zona Industrial, mt² a 2 millones",
+		add: "28.000 mts² de lote <br> 16.000 mts² de Construcción",
+		link: "https://www.facebook.com/photo?fbid=124994629628651&set=pcb.124996576295123",
+		price: "<b>Negociables</b> $28.000.000.000"
+	},
+	{	
 		image: "./venta/parqueadero1.jpg",
 		title:"<strong>Venta Parqueadero</strong> <br> Sector del Restrepo, Bogotá",
 		description:"8 mts de frente por 28 mts de fondo <br> ",
@@ -54,7 +56,6 @@ const items = [
 		price: "<b>Negociables</b> $1'000.000.000"
 	},
 	{	
-		id:6,
 		image: "./venta/spa1.jpg",
 		title:"<strong>Venta Spa</strong> <br> Sector del Castilla, Bogotá",
 		description:"3 alcoba 2 baños sala comedor cocina y cuarto de ropas",
@@ -63,6 +64,28 @@ const items = [
 		price: "<b>Precio</b> pendiente"
 	},
 ];
+
+// casa campestre
+// sector sindamanoy
+// conjunto cerrado de casas verona 
+// area de 300 mts de la casa  
+// lote de 1450
+
+// 5 alcobas 4 parqueaderos baños sala cocina 
+
+// 3 aptos 
+
+// finca en puerto lopez 4600 hectareas 
+// con 300 cabezas de ganado sebu 
+// 5' por hectarea '
+// + 700 hectareas sin titular sin escrituras 
+
+// finca en ocaña norte de santander 
+// 55 hectareas 
+// documentos al dia 
+// 150.000.000 
+
+
 
 let dataBase = items;
 
@@ -104,7 +127,7 @@ const send = () => {
 					<h3 class="item_title">${robin.title}</h3>
 					<p class="item_description">${robin.description}</p>
 					<p class="item_add">${robin.add}</p>
-					<a href="${robin.link}" class="item_link icon-facebook" target="_blank"> Facebook Fotos</a>
+					<a href="${robin.link}" class="item_link icon-facebook" target="_blank"> Más fotos en Facebook</a>
 					<p class="item_price">${robin.price}</p>
 					<div class="dibujo"></div>
 					<div class="dibujo2"></div>
