@@ -48,19 +48,44 @@ window.load = () => {
 
                 let item_dataZona = document.createElement('div');
                 item_dataZona.className = "item_dataZona";
-                item_dataZona.textContent += `Zona: ${data[i].zona.toLowerCase()}`
+                item_dataZona.textContent += `${data[i].zona.toLowerCase()}`
+                if (item_dataZona.textContent == 'sur') {
+                    item_dataZona.style.backgroundColor = "rgba(26, 115, 236,.9)";
+                    item_dataZona.style.width = "15%";
+                    item_dataZona.style.textAlign = "center";
+                    item_dataZona.style.padding = ".5em";
+                    item_dataZona.style.color = "white";
+                    item_dataZona.style.borderRadius = "4px";
+                } else if (item_dataZona.textContent == 'norte') {
+                    item_dataZona.style.backgroundColor = "rgba(234, 67, 53, .9)";
+                    item_dataZona.style.width = "15%";
+                    item_dataZona.style.borderRadius = "4px";
+                    item_dataZona.style.padding = ".5em";
+                    item_dataZona.style.textAlign = "center";
+                    item_dataZona.style.color = "white";
+                } else if (item_dataZona.textContent == 'central') {
+                    item_dataZona.style.backgroundColor = "rgba(166, 226, 46, .9)";
+                    item_dataZona.style.width = "15%";
+                    item_dataZona.style.borderRadius = "4px";
+                    item_dataZona.style.padding = ".5em";
+                    item_dataZona.style.textAlign = "center";
+                    item_dataZona.style.color = "black";
+                }
 
                 let item_dataClase = document.createElement('div');
                 item_dataClase.className = "item_dataClase";
-                item_dataClase.textContent += `Tipo: ${data[i].clase.toLowerCase()}`
+                item_dataClase.style.borderBottom = "1px solid #f0f0f0";
+                item_dataClase.style.marginBottom = "5px";
+                item_dataClase.textContent += `${data[i].clase.toLowerCase()}`
 
                 let item_dataDesc = document.createElement('div');
                 item_dataDesc.className = "item_dataDesc";
-                item_dataDesc.textContent += `Ubicación: ${data[i].descripcion.toLowerCase()}`
+                item_dataDesc.textContent += `Dirección: ${data[i].descripcion.toLowerCase()}`
 
                 let item_dataCity = document.createElement('div');
                 item_dataCity.className = "item_dataCity";
-                item_dataCity.textContent += `Ciudad: ${data[i].ciudad.toLowerCase()}`
+                item_dataCity.textContent += `${data[i].ciudad.toLowerCase()}`
+                item_dataCity.style.textTransform = "capitalize";
 
                 total.className="search_total";
                 total.textContent = `Post-It: `
@@ -68,12 +93,12 @@ window.load = () => {
                 search.appendChild(item_item)
                 .append(
                     item_dataLink,
-                    item_conteo,
-                    item_dataItem,
-                    item_dataZona,
                     item_dataClase,
                     item_dataDesc,
                     item_dataCity,
+                    item_dataItem,
+                    item_conteo,
+                    item_dataZona,
                     );
                 search.appendChild(total);
                     
