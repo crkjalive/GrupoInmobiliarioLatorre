@@ -2,19 +2,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'arial','Raleway';
+  font-family: 'Ubuntu', sans-serif;
+
 }
 a {
-  font-family: "Arial";
   text-decoration: none;
-  color: #272822
+  color: #272822;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 body {
+  font-family: 'Ubuntu', sans-serif;
   background-color: #fff;
-  color: #272822
+  color: #272822;
+  font-size: 16px;
 }
 .h1_title {
-  margin: 2em auto 1em;
+  margin: 2em 2em 1em;
   padding-right: 1.5em;
   display: block;
   font-style: italic;
@@ -52,7 +56,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-  margin-bottom: 2em
+  margin-bottom: 2em;
+  font-size: .5rem;
 }
 .nav_container .ul_container1,
 .nav_container .ul_container2 {
@@ -85,6 +90,12 @@ body {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff
 }
+.nav_container .ul_container1 .a_li .li_item,
+.nav_container .ul_container2 .a_li .li_item{
+  text-transform: capitalize;
+  font-style: italic;
+}
+
 .nav_container .ul_container1 .a_li:hover,
 .nav_container .ul_container2 .a_li:hover {
   background-color: #3e3d32;
@@ -247,11 +258,12 @@ body {
   margin-top: 1em
 }
 .footer_container .title {
+  font-family: 'Ubuntu', sans-serif;
   width: 100%;
   padding: 1em 0 .5em;
   font-weight: 600;
   font-size: 1em;
-  font-style: italic
+  /* font-style: italic */
 }
 .footer_container .contacto {
   padding: 0;
