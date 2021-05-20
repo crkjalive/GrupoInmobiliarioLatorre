@@ -33,6 +33,7 @@ const logo_create = () => {
     a.href = `index.html`;
     let img = document.createElement('img');
     img.className = 'logo';
+    img.title = 'página principal venta directa con el propietario';
     img.src = './img/gil.jpg';
     img.alt = 'Grupo Inmobiliario Latorre';
     document.getElementById('logo_container').appendChild(a).appendChild(img)
@@ -45,31 +46,31 @@ const sociales_create = async () => {
 
     const whatsapp = document.createElement('a');
     whatsapp.className = "";
-    whatsapp.innerHTML = "<img class='whastapp' src='./img/Whatsapp1.svg '/> "
+    whatsapp.innerHTML = `<img class='whastapp' src='./img/Whatsapp1.svg' title='Escríbenos por Whatsapp ${numero1}'/>`;
     whatsapp.target = '_blank';
     whatsapp.href = `https://api.whatsapp.com/send?phone=57${numero1}/`;
 
     const whatsapp2 = document.createElement('a');
     whatsapp2.className = "";
-    whatsapp2.innerHTML = "<img class='whastapp' src='./img/Whatsapp2.svg '/> "
+    whatsapp2.innerHTML = `<img class='whastapp' src='./img/Whatsapp2.svg' title='Escríbenos por Whatsapp ${numero2}'/>`;
     whatsapp2.target = '_blank';
     whatsapp2.href = `https://api.whatsapp.com/send?phone=57${numero2}/`;
 
     const whatsapp3 = document.createElement('a');
     whatsapp3.className = "";
-    whatsapp3.innerHTML = "<img class='whastapp' src='./img/Whatsapp3.svg '/> "
+    whatsapp3.innerHTML = `<img class='whastapp' src='./img/Whatsapp3.svg' title='Escríbenos por Whatsapp ${numero3}'/>`;
     whatsapp3.target = '_blank';
     whatsapp3.href = `https://api.whatsapp.com/send?phone=57${numero3}/`;
 
     const facebook = document.createElement('a');
     facebook.className = "";
-    facebook.innerHTML = "<img class='facebook' src='./img/Facebook.svg'/> "
+    facebook.innerHTML = "<img class='facebook' src='./img/Facebook.svg' title='Contáctanos por facebook'/>";
     facebook.target = '_blank';
     facebook.href = `https://www.facebook.com/grupoinmobiliario.latorre.7/`;
 
     const googleMaps = document.createElement('a');
     googleMaps.className = ""
-    googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMap.svg'/> "
+    googleMaps.innerHTML = "<img class='maps' src='./img/GoogleMap.svg' title='Buscador Google Maps'/>";
     googleMaps.target = '_blank';
     googleMaps.href = `https://www.google.com/maps/`;
 
