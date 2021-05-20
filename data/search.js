@@ -51,21 +51,18 @@ window.load = () => {
                 item_dataZona.textContent += `${data[i].zona.toLowerCase()}`
                 if (item_dataZona.textContent == 'sur') {
                     item_dataZona.style.backgroundColor = "rgba(26, 115, 236,.9)";
-                    item_dataZona.style.width = "15%";
                     item_dataZona.style.textAlign = "center";
                     item_dataZona.style.padding = ".5em";
                     item_dataZona.style.color = "white";
                     item_dataZona.style.borderRadius = "4px";
                 } else if (item_dataZona.textContent == 'norte') {
                     item_dataZona.style.backgroundColor = "rgba(234, 67, 53, .9)";
-                    item_dataZona.style.width = "15%";
                     item_dataZona.style.borderRadius = "4px";
                     item_dataZona.style.padding = ".5em";
                     item_dataZona.style.textAlign = "center";
                     item_dataZona.style.color = "white";
                 } else if (item_dataZona.textContent == 'central') {
                     item_dataZona.style.backgroundColor = "rgba(166, 226, 46, .9)";
-                    item_dataZona.style.width = "15%";
                     item_dataZona.style.borderRadius = "4px";
                     item_dataZona.style.padding = ".5em";
                     item_dataZona.style.textAlign = "center";
