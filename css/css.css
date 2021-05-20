@@ -598,11 +598,11 @@ body {
   .section_dinamico img {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto
+    margin: 0 auto;
   }
   .section_articulos {
     justify-content: space-evenly;
-    margin: 0 auto
+    margin: 0 auto;
   }
   .article_container {
     width: 45%;
@@ -724,11 +724,16 @@ body {
     justify-content: center;
     max-width: 1365px;
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto 10em;
   }
   .article_container {
     width: 33%;
     margin: 1em .5em
+  }
+  .footer_container{
+    z-index: 4000;
+    position: fixed;
+    bottom: 0;
   }
   .footer_container .title {
     font-size: 2rem;
@@ -768,7 +773,6 @@ body {
   }
   .section_articulos {
     padding: 0 2em;
-    margin: 0 auto;
   }
   .item_item {
     width: 30%
