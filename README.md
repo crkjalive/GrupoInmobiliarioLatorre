@@ -3,6 +3,6 @@ venta de casas, apartamentos, locales
 
 Proyecto Web  
 
-[grupo inmobiliario latorre](https://crkjalive.github.io/GrupoInmobiliarioLatorre/)
+[Grupo Inmobiliario Latorre](https://crkjalive.github.io/grupoinmobiliariolatorre/)
 
 
